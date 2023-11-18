@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=main, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <nav class="navigationbar">
+        <h1>Amra Afreen Portfolio</h1>
+        <div class="navmenu">
+            <a href="#AboutMe">AboutMe </a>
+           
+            <a href="#Skills">Skills </a>
+
+            <a href="#Projects">Projects</a>
+               
+            <a href="#connectforum"></a>
+        </div>
+    </nav>
+    <section class="mainpage">
+        <img  class ="profileimg" src ="amraport.jpeg" >
+        <div class="maindetails"> 
+            <h1>Amra Afreen</h1>
+            <h3>Full-Stack Web Developer</h3>
+        </div>
+    </section>
+    <section class="aboutme" id="AboutMe">
+        <h1>About Me</h1>
+        <p>Hello Folks! And welcome to my website!I'm Amra, a Computer Science Engineer and Full Stack Developer with a strong commitment to harnessing the power of technology to shape the world for the better. I have a deep-rooted interest in Artificial Intelligence and Cloud Computing, and I'm excited to share my journey and experiences with you.</p>
+    </section>
+    <section class="skillsandproject">
+        <div class="skills" id="Skills">
+            <h1 class="cardheading"> Skills</h1>
+            <img src="/images/html-5-svgrepo-com.svg" title="html">
+            <img src="/images/css-svgrepo-com.svg" title="Css">
+            <img src="/images/javascript-svgrepo-com.svg" title="JavaScript">
+            <img src="/images/java-4-logo-svgrepo-com.svg" title="Java">
+            <img src="/images/python-svgrepo-com.svg" title="Python">
+        </div>
+        <div class="projects" id="Projects">
+            <h1 class="cardheading">Projects</h1>
+         <div class="projectcontainer">
+                <img src="/images/css-file-type-svgrepo-com.svg" >
+                 <div class="projectDesc">
+                   <h4>Project Name</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tenetur reiciendis laboriosam quos, veniam totam dignissimos, modi qui possimus libero fugit nisi reprehenderit alias eos quae, id maxime adipisci enim!</p>
+                 </div>
+            </div>
+              <div class="projectcontainer">
+               <img src="/images/css-file-type-svgrepo-com.svg" >
+              <div class="projectDesc">
+              <h4>Project Name</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque tenetur reiciendis laboriosam quos, veniam totam dignissimos, modi qui possimus libero fugit nisi reprehenderit alias eos quae, id maxime adipisci enim!</p>
+            </div>
+         </div>
+        </div>
+    </section>
+    <section class="connectforum" id="connectforum">
+      <h1>Let's Connect</h1>
+      <div class="form">
+        <label for="name">Full Name</label><br>
+        <input type="text" id="name" placeholder="fullname"/>
+
+        <label for="email">Email</label><br>
+        <input type="text" id="email" placeholder="email"/>
+
+        <label for="message">Message</label><br>
+       <textarea placeholder="Send Some Message" id="message" name="w3review" rows="4" cols="50">
+       </textarea>
+      </div>
+      <button class="submitbutton" onclick={submit()}> Connect</button>
+    </section>
+  </main>  
+</body>
+</html>
